@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form>
+        <h1  style="text-align:center">Form</h1>
+        <div>
+            <label>FullName:</label>
+            <input type="text"/>
+        </div><br>
+        <div>
+            <label>Email:</label>
+            <input type="email"/>
+        </div><br>
+        <div>
+            <label>Password:</label>
+            <input type="password"/>
+        </div><br>
+        <div>
+            <label>Confirm Password:</label>
+            <input type="password"/>
+        </div><br>
+        <div>
+            <label>Gender:</label><br>
+            <input type="radio" name="male "value="male">Male</input>
+            <input type="radio" name="female" value="female">Female</input>
+            <input type="radio" name="other" value="other">Other</input>
+        </div><br>
+        <div>
+            <label>Security Question</label><br>
+            <select name="security-question">
+                <option value="color">What is Favourite Color</option>
+                <option value="food">What is Favourite Food</option>
+                <option value="dob">What is your date of birth</option>
+                <option value="pet">What is Favourite Pet animal</option>
+             </select>
+        </div>
+        <div>
+            <textarea name="answer-security" rows="6" cols="23"></textarea>
+        </div>
+        <div>
+            <label>Address</label><br>
+            <textarea name="answer-security" rows="6" cols="23"></textarea>
+        </div>
+        <div>
+            <input type="checkbox">I agree to the terms and conditions</input>
+        </div><br>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
